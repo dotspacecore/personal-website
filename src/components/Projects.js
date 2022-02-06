@@ -12,7 +12,7 @@ export default function Projects() {
                 My Work History
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                WIP: Work History, each card can contain details about the projects I contributed over time, 
+                WIP: Work History, each card contains details about the projects I contributed over time, 
                 along with tecnologies I used and clients that benefitted from it.
               </p>
             </div>
@@ -21,7 +21,6 @@ export default function Projects() {
                 del trabajo realizado, para que cliente y las tecnologias utilizadas */}
               {projects.map((project) => (
                 <a
-                  href={project.link}
                   key={project.image}
                   className="sm:w-1/2 w-100 p-4">
                   <div className="flex relative">

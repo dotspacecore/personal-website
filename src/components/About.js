@@ -10,9 +10,10 @@ export default function About() {
                         <br className="hidden lg:inline-block" />I love to program.
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                        laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                        Laborum, voluptas natus?
+                        Been working on it for the past 10 years, mostly using Java and web technologies. Also learning cloud based tools and devops.
+                        I love helping to build solutions that bring value to everyday users.
+                        <br/>
+                        I feel more at home on the backend side of things, but I have a good understanding of frontend too!
                     </p>
                     <div className="flex justify-center">
                         <a
@@ -31,7 +32,7 @@ export default function About() {
                     <img
                         className="object-cover object-center rounded"
                         alt="hero"
-                        src="./coding.svg"
+                        src="./3190342.svg"
                     />
                 </div>
             </div>

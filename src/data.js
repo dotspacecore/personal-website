@@ -1,60 +1,39 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Fintech",
+    subtitle: "Javascript and Spring",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Online banking apps and self service terminals, built on Javascript frontend (using JQuery and Bootstrap) and Spring framework backend.",
+    image: "./atm.jpg",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "B2B Applications",
+    subtitle: "Java JSF/Javascript/Spring",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Web apps to manage salary/provider payments, international transfers and other business operations, built using the JSF library (yes, this was old) and JS/Spring (on newer projects).",
+    image: "./b2b.jpg",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Payment Processing Backend",
+    subtitle: "Spring and JavaEE",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "Backend APIs to support Payment Processing operations between external clients and the AS/400 core, using JAX-RS to connect to RPG-based programs.",
+    image: "./pos.jpg",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Ecommerce Backend",
+    subtitle: "NodeJS and Java/Spring Boot",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "Backend code to support retail ecommerce systems, from managing shipping capacities to reporting transactions.",
+    image: "./online.jpg",
   },
 ];
 
 export const skills = [
-  "JavaScript",
+  "Java",
+  "Spring",
   "React",
-  "Next.js",
+  "Nest.js",
   "Node",
-  "GraphQL",
-  "Material UI",
+  "JavaScript",
 ];
